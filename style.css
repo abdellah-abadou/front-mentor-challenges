@@ -127,10 +127,19 @@ table tr td span {
     font-weight: 800;
 }
 
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #854b3d;
+}
+
 @media only screen and (max-width: 600px) {
-main {
+.main {
     width: 100%;
     z-index: 111;
+    margin: 0;
    }
 
 }
